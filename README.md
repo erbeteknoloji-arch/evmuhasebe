@@ -263,3 +263,7 @@ UPDATE users SET is_admin = 1 WHERE username = 'kullanici_adi';
 ---
 
 Tüm para birimi biçimleri Türkçe standardına göredir (1.234,56 ₺) ve tarihler `gg.aa.yyyy` olarak gösterilir. Arayüz tamamen Türkçedir.
+
+
+<img width="1885" height="969" alt="image" src="https://github.com/user-attachments/assets/3afc3468-309e-4ebf-887e-a90aaa2b4466" />
+
