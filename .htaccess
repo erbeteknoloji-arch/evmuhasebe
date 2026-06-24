@@ -1,0 +1,15 @@
+# Ev Muhasebe - kök yapılandırma
+Options -Indexes
+DirectoryIndex index.php
+
+# Güvenlik başlıkları
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+# Gizli/duyarlı dosyaları engelle
+<FilesMatch "(^\.|\.sql$|\.md$)">
+    Require all denied
+</FilesMatch>

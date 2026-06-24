@@ -1,0 +1,16 @@
+[07-Jun-2026 19:32:48 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined function csrf_token() in /home/u2605166/public_html/shopping.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/u2605166/public_html/shopping.php on line 37
+[07-Jun-2026 19:32:53 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined function csrf_token() in /home/u2605166/public_html/shopping.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/u2605166/public_html/shopping.php on line 37
+[23-Jun-2026 08:50:15 Europe/Istanbul] PHP Parse error:  syntax error, unexpected 'SMTP_PORT' (T_STRING), expecting ')' in /home/u2605166/public_html/config/config.php on line 52
+[23-Jun-2026 08:50:17 Europe/Istanbul] PHP Parse error:  syntax error, unexpected 'SMTP_PORT' (T_STRING), expecting ')' in /home/u2605166/public_html/config/config.php on line 52
+[23-Jun-2026 08:50:18 Europe/Istanbul] PHP Parse error:  syntax error, unexpected 'SMTP_PORT' (T_STRING), expecting ')' in /home/u2605166/public_html/config/config.php on line 52
+[23-Jun-2026 08:50:59 Europe/Istanbul] PHP Parse error:  syntax error, unexpected 'SMTP_PORT' (T_STRING), expecting ')' in /home/u2605166/public_html/config/config.php on line 52
+[23-Jun-2026 08:51:00 Europe/Istanbul] PHP Parse error:  syntax error, unexpected 'SMTP_PORT' (T_STRING), expecting ')' in /home/u2605166/public_html/config/config.php on line 52
+[23-Jun-2026 08:51:00 Europe/Istanbul] PHP Parse error:  syntax error, unexpected 'SMTP_PORT' (T_STRING), expecting ')' in /home/u2605166/public_html/config/config.php on line 52
+[23-Jun-2026 08:51:00 Europe/Istanbul] PHP Parse error:  syntax error, unexpected 'SMTP_PORT' (T_STRING), expecting ')' in /home/u2605166/public_html/config/config.php on line 52
+[23-Jun-2026 08:51:00 Europe/Istanbul] PHP Parse error:  syntax error, unexpected 'SMTP_PORT' (T_STRING), expecting ')' in /home/u2605166/public_html/config/config.php on line 52

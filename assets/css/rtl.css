@@ -1,0 +1,44 @@
+/* =====================================================================
+   RTL (sağdan-sola) düzeltmeleri · Arapça arayüz için
+   style.css'ten SONRA yüklenir (yalnızca dir="rtl" olduğunda).
+   ===================================================================== */
+
+/* Genel yön */
+html[dir="rtl"] body { direction: rtl; text-align: right; }
+
+/* Kenar çubuğu masaüstünde sağda dursun (flex sırası) */
+html[dir="rtl"] .app { flex-direction: row-reverse; }
+
+/* Sidebar içi hizalama */
+html[dir="rtl"] .sidebar .me a.logout { margin-left: 0; margin-right: auto; }
+
+/* Mobil menü sağdan açılsın */
+@media (max-width: 920px) {
+    html[dir="rtl"] .sidebar { left: auto; right: 0; transform: translateX(100%); }
+    html[dir="rtl"] body.nav-open .sidebar { transform: translateX(0); }
+}
+
+/* Sağa dayalı sayısal hücreler RTL'de sola yaslansın ki rakamlar düzgün okunsun */
+html[dir="rtl"] .num-right,
+html[dir="rtl"] th.num-right,
+html[dir="rtl"] td.num-right { text-align: left; }
+
+/* Tablo başlıkları sağa */
+html[dir="rtl"] table.data th,
+html[dir="rtl"] table.data td { text-align: right; }
+html[dir="rtl"] table.data th.num-right,
+html[dir="rtl"] table.data td.num-right { text-align: left; }
+
+/* Para birimi/sayılar her zaman LTR yönünde dizilsin (ör. 1.234,56 ₺) */
+html[dir="rtl"] .tabular { direction: ltr; unicode-bidi: embed; display: inline-block; }
+
+/* Form etiketleri ve ipuçları sağa */
+html[dir="rtl"] .field label,
+html[dir="rtl"] .hint,
+html[dir="rtl"] .muted { text-align: right; }
+
+/* Yüzen hesap makinesi düğmesi sola alınsın */
+html[dir="rtl"] .calc-fab { right: auto; left: 22px; }
+html[dir="rtl"] .calc-pop { right: auto; left: 22px; }
+
+/* "Uygulamayı Yükle" / küçük toast konumları sorun çıkarmaz (ortalı) */
